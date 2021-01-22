@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="icon" href="./resources/images/guitar-bass-icon.png">
+
+    <script src="./script.js" async></script>
+
+    <title>Will's About Me</title>
+</head>
+
+<body>
+    <nav name="navbar" id="navbar" class="sectionbox">
+        <a href="./index.html">
+            <li>Main Page</li>
+        </a>
+        <a href="./index.html">
+            <li>Idea</li>
+        </a>
+        <a href="./questions.html">
+            <li>Questions</li>
+        </a>
+        <a href="./questions.html">
+            <li>Answers</li>
+        </a>
+        <a href="./references.html">
+            <li>References</li>
+        </a>
+        <a href="#aboutmebox">
+            <li>About Me</li>
+        </a>
+        <a href="./extras.html">
+            <li>Extras & Easter Eggs</li>
+        </a>
+    </nav>
+    <main>
+        <div name="aboutmebox" id="aboutmebox" class="sectionbox">
+            <h2>About MEEEE!</h2>
+            <a href="https://twitter.com/seriouswill?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="en"
+                data-show-count="false">Follow @seriouswill</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <div name="aboutme">
+                <p>
+                <aside>Here is a little bit about me.</aside>
+                <h3>My name is Will.</h3> I am a classically trained <a href="https://spotlight.com/1691-0163-7485"
+                    target="_blank" rel="noopener noreferrer">actor</a>,
+                and
+                have worked in the industry for over 10
+                years.
+                The bulk of my expereince has been in the Theatre, and as such, like many of my colleagues - am now
+                completely without work. Parralell to my work in the theatre, I have always had a keen interest in
+                technology, gaming, and computers at large - since tinkering around with my dad's mac at the age of
+                5!
+                During the first lockdown, I began to take up an interest in coding - I began codecademy's web
+                development course, and a plan began to formulate... I foresaw a future, a bright, shiny future,
+                wherein
+                I could code professionally and not have to rely on the unstable, and turbulent life of an actor!
+                </p>
+                <ul>Other nuggets about me include:
+                    <li>I am an avid Tottenham Hotspurs fan!</li>
+                    <li>I climbed <a href="https://en.wikipedia.org/wiki/Cotopaxi">Cotopaxi</a>, the tallest active
+                        volcano in the world, when I was just 15.</li>
+                    <li>I listen to a lot of heavy music, Deathcore, Hardcore, Punk. If it rips, I'm probably into
+                        it.
+                    </li>
+                    <li>But my favourite band in the world, is Radiohead.</li>
+                </ul>
+            </div>
+            <div id="meimgbox" class="sectionbox">
+                <!-- <img src="./resources/images/me.jpg" alt="me looking like a daft eejit">
+                <div>
+                    <h3>Me on a walk with some chums near Hathersage!</h3>
+                    <aside>I love to go on walks! I have come to the countryside quite late in life, but as my better
+                        half says,
+                        there is nothing better for your head than going for a good old stroll through the hills, and
+                        how
+                        lucky we are to be so close to the Peak District and the Lakes! </aside>
+                </div> -->
+
+                <div class="row">
+                    <div class="column">
+                        <img src="./resources/images/discgolf.jpg" alt="discgolf" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="./resources/images/helvellyn.jpg" alt="helvellyn" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="./resources/images/metalme.jpg" alt="terrorshorts" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="./resources/images/spurs.jpg" alt="spursshirt" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="./resources/images/me.jpg" alt="me plonker" onclick="myFunction(this);">
+                    </div>
+
+                    <aside>I love to go on walks and play disc golf! I have come to the countryside quite late in life,
+                        but as my better
+                        half says,
+                        there is nothing better for your head than going for a good old stroll through the hills, and
+                        how
+                        lucky we are to be so close to the Peak District and the Lakes! </aside>
+                    <div class="container">
+                        <!-- Close the image -->
+                        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+                        <!-- Expanded image -->
+                        <img id="expandedImg" style="width:90%">
+
+                        <!-- Image text -->
+                        <div id="imgtext"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </main>
+    <footer class="sectionbox">
+        <div>
+            <aside name="backtotop" id="backtotop"><a href="#navbar">Back to the top !</a></aside>
+
+        </div>
+    </footer>
+</body>
+
+</html>

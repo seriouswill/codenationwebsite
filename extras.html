@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="icon" href="./resources/images/guitar-bass-icon.png">
+
+    <script src="./script.js" async></script>
+
+    <title>Will's Extras!</title>
+</head>
+
+<body>
+    <nav name="navbar" id="navbar" class="sectionbox">
+        <a href="./index.html">
+            <li>Main Page</li>
+        </a>
+        <a href="./index.html">
+            <li>Idea</li>
+        </a>
+        <a href="./questions.html">
+            <li>Questions</li>
+        </a>
+        <a href="./questions.html">
+            <li>Answers</li>
+        </a>
+        <a href="./references.html">
+            <li>References</li>
+        </a>
+        <a href="./aboutMe.html">
+            <li>About Me</li>
+        </a>
+        <a href="#extrabox">
+            <li>Extras & Easter Eggs</li>
+        </a>
+    </nav>
+    <main>
+        <div name="extrabox" id="extrabox" class="sectionbox">
+            <h2>Extras and Easter Eggs!</h2>
+            <br>
+
+
+
+            <h3>Python Files and Fun!</h3>
+            <div id="textgamebox"><textarea name="text" cols="100" rows="20">
+                This is a very cheeky file I made to check how late our esteemed leader was to the Zoom call, using what we learnt in our first week for Codenation:
+                
+
+                    import time
+
+                    start_hour = ("09")
+                    start_min = ("45")
+
+                    t = time.localtime()
+                    hour = time.strftime("%H", t)
+                    minute = time.strftime("%M", t)
+                    start_time = start_hour + start_min
+                    time_actual = hour + minute
+                    # print(start_time)
+                    # print(time_actual)
+
+                    minute_dif = int(start_min) - int(minute)
+                    # print(minute_dif)
+                    hour_dif = int(hour) - int(start_hour)
+                    # print(hour_dif)
+
+                    base_dif = hour_dif * 60 - minute_dif
+
+                    # print(base_dif)
+
+                    jay_here = 0
+
+                    if jay_here:
+                        print("Everybody focus up, and eat your bag of j's.")
+                    else:
+                        print(f"Mr J is late by precicely {base_dif} minutes!")
+                </textarea></div>
+            <br>
+            <h3>A FACTORY SECOND MAGIC EIGHTBALL</h3>
+            <p id="info">Ask me what you want to know and click on the Magic 8 Ball</p>
+            <input type="text" id="question" />
+            <div id="eight-ball" class="eight-ball">
+                <div class="answer">
+                    <p id="eight"> 8</p>
+                    <p id="answer"></p>
+                </div>
+    </main>
+</body>
+
+</html>

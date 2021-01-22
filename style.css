@@ -237,8 +237,10 @@ img {
     background-color:#F4A261;
 }
 
-#navbar li.submenu:hover ul, .submenu:hover {
+#navbar li.submenu:hover ul {
     visibility: visible;
+    
+
 }
 
 /* eightball styleeee */
